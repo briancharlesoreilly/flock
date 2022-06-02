@@ -23,7 +23,7 @@ const EventDetails = () => {
       method: "get",
       url: `https://app.ticketmaster.com/discovery/v2/events/${eventID}`,
       params: {
-        apikey: "NJCKlZmMAiwCVsFMlf33AlMF11d5iusP",
+        apikey: "yjXIFRDUm8G9ufrEA5Gu9ARyFXy2ZFd2",
       },
     };
     axios(configDetails)

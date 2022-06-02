@@ -32,7 +32,7 @@ const AllEvents = ({location, toggleApi, eventType, dateValue, dateEndValue}) =>
       method: "get",
       url: `https://app.ticketmaster.com/discovery/v2/events`,
       params: {
-        apikey: "NJCKlZmMAiwCVsFMlf33AlMF11d5iusP",
+        apikey: "yjXIFRDUm8G9ufrEA5Gu9ARyFXy2ZFd2",
         city: location,
         classificationName: eventType,
         startDateTime: ourStart,
